@@ -2,6 +2,9 @@ import React from "react";
 import { Grid,Container } from "@mui/material";
 import "./styleBio.css"
 import SkillBar  from 'react-skillbars';
+import certJs from "./certificado_javascript.pdf"
+import certReact from "./certificado_react.pdf"
+import certNod from "./nodejs.pdf"
 
 const Bio=()=>{
 
