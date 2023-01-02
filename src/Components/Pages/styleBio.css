@@ -1,0 +1,149 @@
+.bio-title{
+    background-image: url("citinight.jpg");
+    height: 100vh;
+  
+    background-repeat: no-repeat;
+    background-position: top;
+    
+    
+    background-size: 100% 100%;
+    width: 100%;
+    
+    align-items: center;
+    margin-top: 0px;
+
+    
+    
+    }
+
+    .bio-container{
+        margin-bottom: 50px;
+      
+    }
+
+   
+
+    #picture{
+        width: 10vw;
+    }
+
+    .bio-title-text p, h2, h3{
+        color: white;
+        font-family: "comic";
+    }
+
+    .bio-title-text h2{
+        width: fit-content;
+        border-right: .15em solid #18BDEC;
+        animation: blink 1s steps(1) infinite;
+    }
+
+    .bio-title-text{
+        width: 30vw;
+        margin: 0 auto;
+    }
+
+    .title{
+        font-family: "Engcomica";
+        font-weight: bold;
+        color: #ff00de ;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 48px;
+     
+
+    }
+
+    #bio-titleok{
+        margin: 0 auto;
+
+    }
+
+    .bio-items{
+        margin-bottom: 100px;
+    }
+
+    .bio-links{
+        margin-top: 30px;
+        font-size: 20px;
+        
+    }
+
+    .bio-linksa{
+        margin-bottom: 20px;
+    }
+   
+   /* .bio-container{
+        background-image: url("citinight.jpg");
+    height: 100vh;
+  
+    background-repeat: no-repeat;
+    background-position: top;
+    
+    
+    background-size: 100% 100%;
+    width: 100%;
+    
+    align-items: center;
+    margin-top: 10px;
+
+        
+    }*/
+   
+
+    /* animation blink */
+
+    @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
+      }
+ 
+
+    @media screen and (max-width: 900px) {
+
+        .bio-title{
+            background-image: url("citinight.jpg");
+            /*width: 100%;*/
+            background-repeat: no-repeat;
+            background-position: top;
+            
+            
+            background-size: 100% 100%;
+            width: 100vw;
+            height: 50vh;
+            align-items: center;
+            background-color: black;
+            height: 70vh;/*o 100 fijarse para q ocupe toda pantalla cel*/
+          
+         
+            
+        }
+
+        .bio-title-text p, h2, h3{
+            color: white;
+            font-size: small;
+        }
+
+        .bio-title-text{
+           /* display: flex;*/
+            width: 80vw;
+           text-align: center;
+        }
+
+        .bio-title-picture h2{
+           margin: 0 auto;
+            
+        }
+
+        #picture{
+            width: 20vw;
+        }
+
+        .bio-links{
+            margin-top: 30px;
+            font-size: small
+            
+        }
+      
+    }
