@@ -5,6 +5,8 @@ import SkillBar  from 'react-skillbars';
 import certJs from "./certificado_javascript.pdf"
 import certReact from "./certificado_react.pdf"
 import certNod from "./nodejs.pdf"
+import cvIngles from "./curriculumNorbertoManzanosEnglish.pdf"
+import cvEsp from "./curriculumNorbertoManzanosok.pdf"
 
 const Bio=()=>{
 
@@ -48,8 +50,9 @@ const Bio=()=>{
                                 </div>
                                 <div className="bio-links">
                                     <div className="bio-linksa">
-                                        
-                                            <p>Aqui esta mi curriculum, descargalo!</p>
+                                        <a href={cvEsp} target="_blank">
+                                            <p >Aqui esta mi curriculum, descargalo!</p>
+                                        </a>
                                       
                                     </div>
                                     <div className="bio-linksb">
@@ -73,7 +76,3 @@ const Bio=()=>{
 
 export default Bio
 
-/* <p>Html - Css</p>
-                            <p>JavasScript - TypeScript - Python</p>
-                            <p>React - Redux</p>
-                            <p>Node - MySql - MongoDB</p>*/

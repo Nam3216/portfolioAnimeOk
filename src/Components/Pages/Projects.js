@@ -8,7 +8,7 @@ const Projects=()=>{
 
     return(
         <div className="projects-container">
-        <div className="neon" id="projects-titleok">Proyectos</div>
+            <div className="neon" id="projects-titleok">Proyectos</div>
         <Grid container className="projects-title">
             
            

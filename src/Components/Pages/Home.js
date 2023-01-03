@@ -7,23 +7,24 @@ const Home=()=>{
 
 //<p>Mi nombre es Norberto Manzanos y vivo en Buenos Aires, Argentina. Soy un desarrollador Fullstack. Entre otras tecnologias domino Html, Css, Javascript, TypeScript, React, React Native, Node Express, MongoDB y MySql. Mas abajo podras ver mis <a href="#projects">proyectos</a>, <a href="#curriculum">curriculum</a> y tambien mis datos de <a href="#contacto">contacto!</a></p>
     return(
+        <div className="home-container">
         <Grid container className="home-title">
             <link async href="https://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
-           <div className="neon">Bienvenido a Coding City</div>
+           <div className="neon" id="coding">Bienvenido a Coding City</div>
            <Grid container >
                 <Grid item md={6} xs={12} className="home-title-about">
                     
                     
                     <div className="home-text">
                        
-                            <p  id="home-msg">Hey, me dijeron que buscas un buen desarrollador...ven, tengo al mejor para ti<p id="home-msgok">. </p></p>
+                            <p  id="home-msg">Hey, me dijeron que buscas un buen desarrollador...ven, sigueme, tengo al mejor para ti<p id="home-msgok">. </p></p>
                          
                             
                            
                     </div>
                     <div className="home-link">
                     <a href="#bio" style={{color:"white"}} >
-                        <p>Click aqui para seguirlo y dar con el desarrollador</p>
+                        <p>Click aqui para seguirlo y encontrar al desarrollador</p>
                     </a>
                     </div>
                 </Grid>
@@ -42,6 +43,7 @@ const Home=()=>{
             </Grid>
 
         </Grid>
+        </div>
     )
 
 

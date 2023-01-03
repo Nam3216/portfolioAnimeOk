@@ -42,7 +42,7 @@ const Contact=()=>{
                                     <label for="email"></label>
                                     <input type="text" placeholder="Escribe tu email" name="email"/>
                                     <label for="message"></label>
-                                    <textarea  placeholder="Escribe tu mensaje" name="message" />
+                                    <textarea  id="text-input" placeholder="Escribe tu mensaje" name="message" />
                                     <Button variant="contained"id="form-button" type="submit">Enviar</Button>
                                 </form>
                             </div>

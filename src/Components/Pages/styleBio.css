@@ -56,6 +56,7 @@
 
     #bio-titleok{
         margin: 0 auto;
+        margin-top: 30px;
 
     }
 
@@ -72,26 +73,24 @@
     .bio-linksa{
         margin-bottom: 20px;
     }
-   
-   /* .bio-container{
-        background-image: url("citinight.jpg");
-    height: 100vh;
-  
-    background-repeat: no-repeat;
-    background-position: top;
-    
-    
-    background-size: 100% 100%;
-    width: 100%;
-    
-    align-items: center;
-    margin-top: 10px;
 
-        
-    }*/
-   
+    .bio-linksb{
 
-    /* animation blink */
+        transition: transform .2s; /* Animation */
+    }
+    
+    .bio-linksb:hover{
+      transform: scale(1.05);
+    }
+    
+    .bio-linksa{
+
+        transition: transform .2s; /* Animation */
+    }
+    
+    .bio-linksa:hover{
+      transform: scale(1.05);
+    }
 
     @keyframes blink {
         50% {
@@ -114,7 +113,7 @@
             height: 50vh;
             align-items: center;
             background-color: black;
-            height: 70vh;/*o 100 fijarse para q ocupe toda pantalla cel*/
+            height: 100vh;/*o 100 fijarse para q ocupe toda pantalla cel*/
           
          
             

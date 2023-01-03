@@ -4,8 +4,9 @@
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
-    width: 30vw;
+    width: 40vw;
     height: 5vh;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .form{
@@ -16,11 +17,12 @@
 }
 
 textarea{
-    width: 30vw;
+    width: 40vw;
     height: 20vh;
     margin: 0 auto;
     display: block;
     margin-bottom: 30px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 
@@ -43,7 +45,7 @@ textarea{
 
 #contactok{
     margin: 0 auto;
-    margin-top: 1%;
+   /* margin-top: 1%;*/
 }
 .form-containerok{
     
@@ -94,7 +96,7 @@ textarea{
         
         background-size: 100% 100%;
         width: 100vw;
-        height: 70vh;/*o 100 fijarse para q ocupe toda pantalla cel*/
+        height: 100vh;/*o 100 fijarse para q ocupe toda pantalla cel*/
         align-items: center;
         /*background-color: red;*/
       

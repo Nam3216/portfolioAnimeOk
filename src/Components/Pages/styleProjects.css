@@ -14,20 +14,14 @@
 
 
 
+
+
 .projects-container{
   text-align: center;
   margin: 0 auto;
  
 }
-/*
-.card {
-    padding: 50px;
-    background-color: green;
-    transition: transform .2s; 
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-  }*/
+
 
   .card:hover {
     transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */

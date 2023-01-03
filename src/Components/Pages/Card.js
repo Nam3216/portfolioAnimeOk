@@ -17,6 +17,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Grid,Container } from "@mui/material";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LanguageIcon from '@mui/icons-material/Language';
+import "./styleCard.css"
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -31,22 +32,24 @@ const ExpandMore = styled((props) => {
 
 export default function CardOk({data}) {
   const [expanded, setExpanded] = React.useState(false);
-  const{img,description,linkSite,linkkGit,title}=data
+  const{img,description,linkSite,linkGit,title}=data
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
 
-  return (
-   
-    <Card sx={{ maxWidth: 345 }} className="card">
-        
-      <CardHeader
-        avatar={
+  /*desp de cardheader
+  avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
             R
           </Avatar>
-        }
+        }*/
+  return (
+   
+    <Card sx={{ maxWidth: 345 }} className="card" >
+        
+      <CardHeader
+        
         action={
           <IconButton aria-label="settings">
             <MoreVertIcon />
@@ -60,6 +63,8 @@ export default function CardOk({data}) {
         height="194"
         image={img}
         alt={title}
+        onClick={()=>window.open(linkGit)}
+        className="img-card"
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
@@ -67,20 +72,15 @@ export default function CardOk({data}) {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-        <GitHubIcon/>
-        </IconButton>
-        <IconButton aria-label="share">
-          <LanguageIcon />
-        </IconButton>
-        <ExpandMore
-          expand={expanded}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          
-        </ExpandMore>
+        <div className='linkscard'>
+          <IconButton aria-label="add to favorites" className='icongit' >
+          <GitHubIcon onClick={()=>window.open(linkGit)} />
+          </IconButton>
+          <IconButton aria-label="share" className='iconlink'>
+            <LanguageIcon onClick={()=>window.open(linkSite)} />
+          </IconButton>
+        </div>
+       
       </CardActions>
     
     
