@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7d2540d9.css",
+    "main.css": "/portfolio/static/css/main.7d94785e.css",
     "main.js": "/portfolio/static/js/main.f1c33c6b.js",
     "static/js/787.28d1ee6a.chunk.js": "/portfolio/static/js/787.28d1ee6a.chunk.js",
-    "static/media/citynightok.jpg": "/portfolio/static/media/citynightok.72f79b8b73bd80ceceb1.jpg",
-    "static/media/citynightokother.jpg": "/portfolio/static/media/citynightokother.86b258b861a5dabd5844.jpg",
-    "static/media/citynightokmobil.jpg": "/portfolio/static/media/citynightokmobil.02152a61971e81a1a063.jpg",
-    "static/media/citynightokothermobil.jpg": "/portfolio/static/media/citynightokothermobil.b2b5f9c34b2431250cce.jpg",
-    "static/media/citinight.jpg": "/portfolio/static/media/citinight.94519bdba8559ffca455.jpg",
+    "static/media/citynightok.jpg": "/portfolio/static/media/citynightok.9e77cf3a1385bf4d9ded.jpg",
+    "static/media/citynightokother.jpg": "/portfolio/static/media/citynightokother.ab0c02d14f0d61ae4584.jpg",
+    "static/media/citynightokmobil.jpg": "/portfolio/static/media/citynightokmobil.e51680e1a2df85cd8db7.jpg",
+    "static/media/citynightokothermobil.jpg": "/portfolio/static/media/citynightokothermobil.5f562a72b45f92e77477.jpg",
     "static/media/Comic-Book-Bold.otf": "/portfolio/static/media/Comic-Book-Bold.6741334a486073e5b5c1.otf",
+    "static/media/citinight.jpg": "/portfolio/static/media/citinight.f2366b7921ac1a198a3c.jpg",
     "static/media/nodejs.pdf": "/portfolio/static/media/nodejs.bd27bb7f8d9e4a33cc3b.pdf",
     "static/media/curriculumNorbertoManzanosok.pdf": "/portfolio/static/media/curriculumNorbertoManzanosok.a96adef4844296609011.pdf",
     "static/media/Engcomica.otf": "/portfolio/static/media/Engcomica.e481eea00446c5c3fc41.otf",
@@ -16,12 +16,12 @@
     "static/media/certificado_javascript.pdf": "/portfolio/static/media/certificado_javascript.2239621b3132198c1532.pdf",
     "static/media/certificado_react.pdf": "/portfolio/static/media/certificado_react.0219bf1429b447128ece.pdf",
     "index.html": "/portfolio/index.html",
-    "main.7d2540d9.css.map": "/portfolio/static/css/main.7d2540d9.css.map",
+    "main.7d94785e.css.map": "/portfolio/static/css/main.7d94785e.css.map",
     "main.f1c33c6b.js.map": "/portfolio/static/js/main.f1c33c6b.js.map",
     "787.28d1ee6a.chunk.js.map": "/portfolio/static/js/787.28d1ee6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d2540d9.css",
+    "static/css/main.7d94785e.css",
     "static/js/main.f1c33c6b.js"
   ]
 }
